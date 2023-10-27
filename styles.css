@@ -1,0 +1,64 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.clock {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  margin: 100px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  top: 50px;
+  background-image: url(https://png.pngtree.com/png-clipart/20221227/ourmid/pngtree-clock-no-hands-roboto-font-png-image_6538806.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.hand {
+  position: absolute;
+  width: 2px;
+  height: 100px;
+  background-color: #333;
+  top: 15%;
+  left: 50%;
+  transform-origin: 50% 100%;
+  transform: translateX(-50%) rotate(0deg);
+}
+
+#secHand{
+  border: solid red;
+  height: 90px;
+}
+
+#hrHand{
+  height: 80px;
+  border:  solid green;
+  position: absolute;
+  top: 20%;
+}
+
+#minHand{
+  height: 80px;
+  top: 20%;
+}
+
+#cir{
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+}
+
+.j{
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
+
