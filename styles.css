@@ -4,6 +4,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+main{
+  height: 80dvh;
+  width: 100dvw;
+}
+
+strong{
+  color:  green;
+}
 .clock {
   position: relative;
   width: 250px;
@@ -60,5 +69,14 @@
   position: absolute;
   top: 60%;
   left: 35%;
+}
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
 }
 

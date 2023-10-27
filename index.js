@@ -7,6 +7,8 @@ function updateClock() {
     
     
 
+   
+
     const secHand = document.getElementById('secHand');
     const minHand = document.getElementById('minHand');
     const hrHand = document.getElementById('hrHand');
@@ -18,9 +20,13 @@ function updateClock() {
     secHand.style.transform = `translateX(-50%) rotate(${secDeg}deg)`;
     minHand.style.transform = `translateX(-50%) rotate(${minDeg}deg)`;
     hrHand.style.transform = `translateX(-50%) rotate(${hrDeg}deg)`;
+
+    const CurrentDate11 = document.getElementById('date');
+
+  CurrentDate11.innerHTML = now.getFullYear();
   }
   
   setInterval(updateClock, 1000); // Update the clock every second
   updateClock(); // Initial update
 
-  S
+  
